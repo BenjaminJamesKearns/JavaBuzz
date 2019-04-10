@@ -15,7 +15,7 @@ class Menu { // this class will be used to display the menu to the user
         String input = in.nextLine(); // takes the user input
 
         switch(input) {
-            case "1": System.out.println("you entered 1");
+            case "1": FizzBuzz.enterANumber();
                       break;
             case "2": System.exit(0); // closes program if user selects option 2
                       break;

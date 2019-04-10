@@ -33,8 +33,8 @@ class FizzBuzzTest { // this class is used to test the fizzbuzz class
     @Test
     public void NotAMultiple() {
 
-        int outcome = FizzBuzz.calculation(2);
-        assertEquals(outcome, 2);
+        String outcome = FizzBuzz.calculation(2);
+        assertEquals(outcome, "2");
 
     }
 
